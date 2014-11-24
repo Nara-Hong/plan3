@@ -1,0 +1,23 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8" name="viewport" content="width=device-width, user-scalable=no, initial-scale=1, maximum-scale=1">
+<title>Plan man</title>
+<script>
+function changeImage2(newimage) {
+        var changeimg = document.getElementById("imgchange2");
+        changeimg.src = newimage; 
+}
+</script>
+<style>
+body {min-width: 300px;}
+img{
+	width: 20%;
+	margin: 25% 40%;
+}
+</style>
+</head>
+<body>
+<a href="index2.html"><img src="logo.gif" alt="no image" onmouseover="changeImage2('logo2.gif')" onmouseout="changeImage2('logo.gif')" id="imgchange2" ></a>
+</body>
+</html>
